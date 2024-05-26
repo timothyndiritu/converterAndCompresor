@@ -30,7 +30,7 @@ import clearNavIconHover from "./assets/clear-hover.svg";
 function App() {
   const [convertedImageUrl, setConvertedImageUrl] = useState(null);
   const [startConversion, setStartConversion] = useState(false);
-  const [format, setFormat] = useState('jpeg');
+  const [format, setFormat] = useState("jpeg");
   const [isCompressing, setCompressing] = useState(false);
   const [rawImage, setRawImage] = useState(null);
   const [image, setImage] = useState(null);
@@ -311,7 +311,11 @@ function App() {
           <button
             style={styles.zoomIcons}
             onClick={() => {
+              console.log("try");
+              if (!originalUploadedImage) return;
+              if (!format) return;
               downloadImage();
+              console.log("success");
             }}
           >
             Download
