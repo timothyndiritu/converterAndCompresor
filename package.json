@@ -1,0 +1,25 @@
+{
+  "name": "converterandcompresor",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1",
+    "browser-image-compression": "^2.0.2",
+    "preact": "^10.16.0",
+    "prop-types": "^15.8.1",
+    "react-convert-image": "^0.5.0",
+    "react-lottie": "^1.2.4"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.5.0",
+    "@tauri-apps/cli": "^1",
+    "vite": "^5.0.0"
+  }
+}

@@ -1,0 +1,55 @@
+@import url(https://db.onlinewebfonts.com/c/1f75154643c08ae550c78c5ba92ba8f8?family=AwanZaman-Regular); 
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  
+}
+
+.titles{
+  font-family: "AwanZaman-Regular";
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+.subTexts{
+  font-family: "AwanZaman-Regular";
+  font-weight: 300;
+  font-size: 22px;
+  color: #BEBECE;
+  margin-bottom: 10px;
+
+}
+.buttonAddAndMinus {
+  width: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.navIcons {
+  margin-bottom: 10px;
+  height: 35px;
+  transition: transform 0.3s ease;
+}
+.navIcons:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.uploadButton {
+  background-color: #f6522b;
+  color: white;
+  border: none;
+  transition: 0.3s ease;
+}
+.uploadButton:hover {
+  background-color: white;
+  color: #171721;
+}
+.inputValues{
+  background-color: #2E2E38;
+  padding:5px 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
